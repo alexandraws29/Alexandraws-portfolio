@@ -1,0 +1,24 @@
+/* General page styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    background-color: #fac8ad;
+    font-family: "varela round", "jost", sans serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+a {
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+span {
+    font-weight: bolder;
+}
