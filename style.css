@@ -22,7 +22,6 @@ a {
 span {
     font-weight: bolder;
 }
-
 /* Header styles */
 header {
     padding: 20px 35px;
@@ -110,7 +109,7 @@ a:hover {
 }
 .about-me p {
     grid-column: 2 / span 2;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .about-me img {
@@ -155,6 +154,19 @@ a:hover {
     color: #001A31;
     font-weight: bold;
 }
+
+/* Footer Styles */
+footer {
+    padding: 10px;
+    color: #C18DBB;
+    font-size: 1em;
+    text-align: center;
+    background-color: #001a31;
+    line-height: 2em;
+}
+
+
+
 
 /* Tablet View */
 @media (max-width: 800px) {
@@ -224,9 +236,12 @@ a:hover {
     }
 
     /* about me in mobile view */
+    .about-me p {
+        font-size: 1em;
+    }
+    
     .about-me img {
         height: 40vw;
     }
 
 }
-
