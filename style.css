@@ -140,3 +140,19 @@ a:hover {
     grid-column: 2 / span 2;
 }
 
+/* Contact Styles */
+.contact li {
+    display: inline-flex;
+    line-height: 2em;
+}
+
+.contact-info {
+    grid-column: 2 / span 3;
+    list-style: none;
+}
+
+.contact a {
+    color: #001A31;
+    font-weight: bold;
+}
+
