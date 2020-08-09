@@ -203,4 +203,30 @@ a:hover {
     }   
 }
 
+/* Mobile View */
+@media (max-width: 415px) {
+    
+    /* header in mobile view */
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* hero in tablet view */
+   .hero, .bottom-right {
+    font-size: 1em;
+    }
+
+    /* grid in mobile view */
+    .grid-item {
+        height: 110px;
+        margin: 5px;
+    }
+
+    /* about me in mobile view */
+    .about-me img {
+        height: 40vw;
+    }
+
+}
 
