@@ -89,3 +89,31 @@ a:hover {
     font-size: .8em;
 } 
 
+/* Grid setup */
+.grid-container {
+    margin: 15px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.section-1, .section-2, .section-3 {
+    color: #001A31;
+    border-right: #019dd8 5px solid;
+    text-align: right;
+    padding: 2em 1.5em;
+    font-size: 1.5em;
+}
+
+/* About Me Styles */
+.section-1 {
+    grid-row: 1 / span 2;
+}
+.about-me p {
+    grid-column: 2 / span 2;
+    font-size: 1em;
+}
+
+.about-me img {
+    height: 30vw;
+}
+
